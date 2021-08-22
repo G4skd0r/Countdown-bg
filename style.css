@@ -1,0 +1,123 @@
+/* General */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+
+ /* Cuenta regresiva */
+
+h2 {
+    font-size: 5rem;
+    font-weight: 800;
+    padding: 10px;
+    border-radius: 10px;
+    animation: backColorsTittle infinite 20s;
+}
+
+.tittle{
+    background-color: white;
+    margin-bottom: 70px;
+}
+
+@keyframes backColorsTittle {
+    
+
+    0%{
+        background-color: #f4b215;
+    }
+    14.3%{
+        background-color: #ed7023;
+    }
+    28.6%{
+        background-color: #e52227;
+    }
+    43%{
+        background-color: #b61b85;
+    }
+    57.3%{
+        background-color: #4b4986;
+    }
+    71.6%{
+        background-color: #952580;
+    }
+    86%{
+        background-color: #33bdd9;
+    }
+    100%{
+        background-color: #f8cc06;
+    }
+
+}
+
+.big-text {
+    min-height: 96vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.countdown {
+    display: flex;
+    width: 60rem;
+    justify-content: space-around;
+    text-align: center;
+}
+.day,
+.hour,
+.minute,
+.second {
+    font-size: 7rem;
+}
+
+/* Logos */
+.logos {
+   margin-top: 10vh;
+   width: 60vh;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.pro-logo {
+    height: 20vh;   
+}
+
+.jxc-logo {
+    height: 12vh;
+}
+
+
+.colorline {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2vh;
+    z-index: 2;
+}
+.topline {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2vh;
+    z-index: 2;
+}
+.colorline span{width:12.5%;height:100%;float:left}
+.topline span{width:12.5%;height:100%;float:left}
+
+.c1{background-color:#f8cc06}
+.c2{background-color:#f4b215}
+.c3{background-color:#ed7023}
+.c4{background-color:#e52227}
+.c5{background-color:#b61b85}
+.c6{background-color:#4b4986}
+.c7{background-color:#952580}
+.c8{background-color:#33bdd9}
